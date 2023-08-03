@@ -1,0 +1,63 @@
+.Header{
+    z-index: 0;
+    text-align: center;
+    background-image: url(/src/components/headerimg.jpg);
+    padding-bottom: 50px;
+}
+
+.HeaderBg{
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    bottom: 20px;
+    width: 100%;
+    top: 0;
+    opacity: 90%;
+}
+
+.center{
+    background-color: white;
+}
+
+.side{
+    width: 150px;
+    height: 270px;
+    object-fit: cover;
+}
+.cen{
+    object-fit: cover;
+    width: 250px;
+    height: 370px;
+}
+.centerImg{
+    object-fit: contain;
+    background-color: white;
+}
+
+.hero{
+    position: relative;
+    z-index: 2;
+    padding: 100px;
+}
+
+.blank{
+    padding: 20px;
+    background-color: black;
+}
+
+h2{
+    font-size: 70px;
+    font-weight: 200;
+}
+
+.hero button{
+    margin-top: 20px;
+}
+
+.sLeftImg{
+    border-top-left-radius: 100px;
+}
+.sRightImg{
+    border-bottom-right-radius: 100px;
+}
