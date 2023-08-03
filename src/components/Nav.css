@@ -4,11 +4,12 @@
 nav{
     position: relative;
     z-index: 2;
+    align-items: center;
+    justify-content: center;
 }
 button{
     background-color: black;
-    width: 100px;
-    height: 30px;
+   padding: 10px 20px;
     color: white;
     border-radius: 12px;
     margin-bottom: 10px;
@@ -17,3 +18,8 @@ h1{
     font-size: 50px;
     font-weight: 300;
 }
+
+.navlinks a:hover{
+    border-bottom: 2px solid black;
+}
+
