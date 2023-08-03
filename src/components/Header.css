@@ -21,9 +21,14 @@
 }
 
 .side{
+    
+    transition: opacity 0.3s ease-in-out; 
+    opacity: 1; 
     width: 150px;
     height: 270px;
     object-fit: cover;
+    
+   
 }
 .cen{
     object-fit: cover;
@@ -61,3 +66,42 @@ h2{
 .sRightImg{
     border-bottom-right-radius: 100px;
 }
+
+.cen,.side{
+    box-shadow: 0 0 10px 12px #d6d6d6;
+}
+
+.paginations{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.circle{
+    text-align: center;
+    background-color:  #D9D9D9;
+    ;
+    width: 14.4px;
+    height: 14.4px;
+    margin: 0 2px;
+    transition: all 0.3s ease-in-out;
+    
+    border-radius: 20px;
+
+}
+.activePag{
+    transform: scale(1.2);
+    background-color: #F3CE00;}
+
+ 
+.hero img{
+    transition: all 0.4s ease-in-out;
+}
+
+/*top:50px
+left:928px
+0px
+*/
