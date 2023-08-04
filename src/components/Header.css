@@ -17,7 +17,6 @@
 }
 
 .center{
-    background-color: white;
 }
 
 .side{
@@ -27,6 +26,7 @@
     width: 150px;
     height: 270px;
     object-fit: cover;
+    
     
    
 }
@@ -153,3 +153,12 @@ h2{
     animation: animateToLeft 0.4s  forwards; /* Added 'forwards' to keep the final animation state */
   }
   
+  .centerImageToRight {
+    position: relative;
+    animation: animateToRight 0.4s forwards; /* Adjust the animation duration as needed */
+  }
+  
+  .centerImageToLeft {
+    position: relative;
+    animation: animateToLeft 0.4s forwards; /* Adjust the animation duration as needed */
+  }
