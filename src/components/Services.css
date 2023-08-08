@@ -1,0 +1,55 @@
+.slide1{
+    color: white;
+}
+
+
+.slide1 h4{
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 300;
+line-height: 10px;
+letter-spacing: 0.055em;
+text-shadow: 0px 14px 19px  #0000002B;
+
+}
+
+.slide1 h1{
+    font-family: Poppins;
+font-size: 60px;
+font-weight: 500;
+line-height: 100px;
+letter-spacing: -0.04em;
+text-shadow: 0px 14px 19px  #0000002B;
+
+
+}
+
+.slide p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+text-shadow: 0px 14px 19px  #0000002B;
+
+
+}
+
+.slider-img{
+    width:500px;
+    height: 300px;
+    
+}
+
+.slider-text{
+    width: 50%;
+}
+
+
+.slider-first{
+    justify-content: space-between;
+    padding: 80px 40px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+.numbers {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .number {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .number .counter {
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: white;
+  }
+  .number span {
+    padding-top: 10px;
+    display: flex;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .banner{
+    padding: 40px;
+    background-color: black;
+  }
+
